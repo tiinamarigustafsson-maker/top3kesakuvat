@@ -1,0 +1,149 @@
+p {
+      color: rgb(0, 45, 68);
+    }
+    .transition-button {
+        background-color: rgb(0, 210, 63);
+        padding: 10px 20px;
+        border: none;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+      
+      .transition-button:hover {
+        background-color: rgb(151, 33, 255);
+      }
+    body {
+        padding: 5%;
+      background: linear-gradient(100deg, rgb(164, 255, 214), rgb(87, 171, 255));
+    }
+    
+    h1 {
+      font-size: 2em;
+    }
+.content-box {
+  padding: 20px;
+  margin: 10px;
+  background-color: #8de1ff;
+  border: 1px solid #0058a4;
+}
+P{
+    line-height: 1.5;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+table {
+    width: 50%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(0, 45, 68,);
+    border-collapse: collapse; 
+    margin: 25px 0;
+    font-size: 0.9em;
+
+}
+
+  
+    
+    th, td {
+      border: 1px solid #ddd;
+      padding: 8px;
+      text-align: left;
+    }
+    
+    th {
+      background-color: #f2f2f2;
+    }
+    
+    form {
+      width: 50%;
+      flex-direction: column;
+      gap: 10px;
+    }
+     textarea
+     {
+        min-height: 9em;
+        min-width: 100%;
+        padding: 0.5em;
+
+     }
+    label {
+      font-weight: bold;
+    }
+    
+   input[type="text"], input[type="email"] {
+      padding: 8px;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+    }
+    
+    input[type="submit"] {
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    
+    input[type="submit"]:hover {
+      background-color: #45a049;
+    }
+   
+
+ol {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(0, 45, 68,);
+}
+
+.animation-box {
+        width: 100px;
+        height: 100px;
+        background-color: rgb(163, 0, 142);
+        position: relative;
+        animation: move 10s infinite alternate;
+      }
+      
+      @keyframes move {
+        from {
+          left: 10px;
+        }
+        to {
+          left: 300px;
+        }
+      }
+
+      .pseudo-list li:nth-child(odd) {
+        background-color: rgb(93, 185, 255);
+        width: 200px;
+        height: 20px;
+      }
+      
+      .pseudo-list li:nth-child(even) {
+        width: 200px;
+        height: 20px;
+        background-color: rgb(120, 154, 255);
+      }
+
+      .filter-image {
+        filter: grayscale(100%);
+        transition: filter 0.3s ease;
+      }
+      
+      .filter-image:hover {
+        filter: grayscale(0%);
+      }
+
+      .quote {
+        position: relative;
+        padding-left: 20px;
+        font-style: italic;
+        
+      }
+      
+      .quote::before {
+        content: ' vaan todellisuus joka on koettava';
+        font-size: 40px;
+        position: absolute;
+        left: 0;
+        top: 0;
+        color: rgb(240, 248, 255);
+       
+      }
